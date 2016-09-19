@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5a08211-5c13-42b6-b82b-b825b93397be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Midichlorian_Predictor.py" afterPath="$PROJECT_DIR$/Midichlorian_Predictor.py" />
-    </list>
+    <list default="true" id="f5a08211-5c13-42b6-b82b-b825b93397be" name="Default" comment="" />
     <ignored path="Star-Wars.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -163,7 +161,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="145" y="27" width="1627" height="1000" extended-state="0" />
+    <frame x="145" y="27" width="1627" height="1000" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24984267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
