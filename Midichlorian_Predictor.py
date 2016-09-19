@@ -23,7 +23,7 @@ Y = [leia, kylo, luke]
 #decision tree
 clf = tree.DecisionTreeRegressor()
 clf = clf.fit(X, Y)
-print clf.predict([[kenobi]])
+print clf.predict([[16000]]) # input your midichlorian count here!
 
 #computing accuracy
 from sklearn import cross_validation
