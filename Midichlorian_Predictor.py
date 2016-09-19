@@ -14,17 +14,17 @@ dooku = 13500
 kenobi = 13400
 maul = 12000
 
-# real data # will update when Rey's MC count is known
-X = [[anakin],[anakin],[leia]]
-y = [luke,leia,kylo]
-
 from sklearn import tree
-knr = tree.DecisionTreeRegressor
-knr.fit(X,y)
-#predicting midichlorian count if parent midichlorian count is known
-x = 16000
-print knr.predict([[16000]]) #hypothetical midichlorian count
+
+# real data # will update when Rey's MC count is known
+X = [[anakin], [leia], [anakin]]
+Y = [leia, kylo, luke]
+
+#decision tree
+clf = tree.DecisionTreeRegressor()
+clf = clf.fit(X, Y)
+print clf.predict([[kenobi]])
 
 #computing accuracy
 from sklearn import cross_validation
-print 'Accuracy',cross_validation.cross_val_score(knr,X,y)
+print 'Accuracy',cross_validation.cross_val_score(clf,X,Y)
