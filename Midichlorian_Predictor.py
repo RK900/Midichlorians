@@ -18,9 +18,12 @@ maul = 12000
 X = [[anakin],[anakin],[leia]]
 y = [luke,leia,kylo]
 
-from sklearn import neighbors
-knr = neighbors.KNeighborsRegressor()
+from sklearn import tree
+knr = tree.DecisionTreeRegressor
 knr.fit(X,y)
+#predicting midichlorian count if parent midichlorian count is known
+x = 16000
+print knr.predict([[16000]]) #hypothetical midichlorian count
 
 #computing accuracy
 from sklearn import cross_validation
