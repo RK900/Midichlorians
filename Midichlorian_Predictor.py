@@ -1,5 +1,5 @@
 '''
-Predicts midi cholrian counts based on data from Star Wars EU (https://www.quora.com/What-is-Luke-Skywalkers-midichlorian-count-How-does-his-count-compare-to-other-Jedis)
+Predicts midi chlorian counts based on data from Star Wars EU (https://www.quora.com/What-is-Luke-Skywalkers-midichlorian-count-How-does-his-count-compare-to-other-Jedis)
 Author: Rohan Koodli
 '''
 

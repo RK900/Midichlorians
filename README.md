@@ -1,4 +1,5 @@
-# Star-Wars
+![](https://cloud.githubusercontent.com/assets/5069354/19361445/8a1db59c-9137-11e6-82cc-dddc4271b407.png)
+
 Codebits related to Star Wars
 
 ###License
