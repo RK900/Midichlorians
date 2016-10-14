@@ -27,4 +27,4 @@ print clf.predict([[16000]]) # input your midichlorian count here!
 
 #computing accuracy
 from sklearn import cross_validation
-print 'Accuracy',cross_validation.cross_val_score(clf,X,Y)
+print ('Accuracy',cross_validation.cross_val_score(clf,X,Y))
