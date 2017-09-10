@@ -17,12 +17,12 @@ maul = 12000
 
 rey = 13000 # a (wild) guess
 
-from sklearn import tree
+from sklearn import tree, svm
 import random
 
 noiseX, noiseY = [],[]
 for i in range(2): # data augmentation
-    multiplier = random.uniform(500,7000) # multiplied by number between -1 and 1
+    multiplier = random.uniform(500,3000) # multiplied by number between -1 and 1
     r1 = random.uniform(-1, 1)
     k_noise = kylo + r1 * multiplier
     r2 = random.uniform(-1,1)
@@ -42,8 +42,7 @@ Y = [anakin, leia] + noiseY
 print X
 print Y
 
-#decision tree
-clf = tree.DecisionTreeRegressor()
+clf = svm.SVR()
 clf = clf.fit(X, Y)
 print clf.predict([[rey]]) # input your midichlorian count here!
 
