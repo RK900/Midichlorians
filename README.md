@@ -27,7 +27,7 @@ The model learned how the midichlorian counts in the Skywalker family chnaged ov
 Since Rey's MC is unknown, I varied the counts, using MC that I felt were reasonable. Then, I ran the model using my training samples.
 
 ### Results
-Most of the time, Rey's parent's MC ranged from 20,000 to about 22,000. These values were obtained using multiple different guesses for Rey's MC. The closest match for 20,000 to 22,000 midichlorians is...Emperor Palpatine! I was surprised by this result, as I was expecting either Luke or Han. Regardless, this was a fun personal project to undertake. Comments, questions and suggestions are welcome. The code is available in this [GitHub repository](https://github.com/RK900). If you know of any more MCs for characters, feel free to open a pull request or issue. I look forward to seeing if this is confirmed in Episode VIII.
+Most of the time, Rey's parent's MC ranged from 20,000 to about 22,000. These values were obtained using multiple different guesses for Rey's MC. The closest match for 20,000 to 22,000 midichlorians is...Emperor Palpatine! I was surprised by this result, as I was expecting either Luke or Han. Regardless, this was a fun personal project to undertake. Comments, questions and suggestions are welcome. The code is available in this [GitHub repository](https://github.com/RK900/Star-Wars). If you know of any more MCs for characters, feel free to open a pull request or issue. I look forward to seeing if this is confirmed in Episode VIII.
 
 
 
