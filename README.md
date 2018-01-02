@@ -30,6 +30,6 @@ Since Rey's MC is unknown, I varied the counts, using MC that I felt were reason
 ### Results
 Most of the time, Rey's parent's MC ranged from 20,000 to about 22,000. These values were obtained using multiple different guesses for Rey's MC. The closest match for 20,000 to 22,000 midichlorians is...Emperor Palpatine! I was surprised by this result, as I was expecting either Luke or Han. Regardless, this was a fun personal project to undertake. Comments, questions and suggestions are welcome. The code is available in this [GitHub repository](https://github.com/RK900/Star-Wars). If you know of any more MCs for characters, feel free to open a pull request or issue. I look forward to seeing if this is confirmed in Episode VIII.
 
-
-
+### Update - Jan 2, 2018
+In _The Last Jedi_, Kylo Ren reveals that Rey's parents were "nobodys", they sold off Rey. I'm still unsure of whether he was telling the truth (why would Rey's parents sell her off when in her vision in _The Force Awakens_ they flew off in their own ship?). This model cannot compensate for the fact that Rey's parents are nobodys; the underlying assumption is that she is somewhat related to previous characters.
 
