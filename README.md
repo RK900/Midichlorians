@@ -23,7 +23,7 @@ I looked online to find midichlorian counts of various characters. I found [this
 Anakin Skywalker (Darth Vader) -> Leia Organa -> Ben Solo (Kylo Ren)
 ```
 
-The model learned how the midichlorian counts in the Skywalker family chnaged over time. To add more data, I did some data augmentation to increase the number of training samples and made my model more robust.
+The model learned how the midichlorian counts in the Skywalker family changed over time. To add more data, I did some data augmentation to increase the number of training samples and made my model more robust.
 
 Since Rey's MC is unknown, I varied the counts, using MC that I felt were reasonable. Then, I ran the model using my training samples.
 
@@ -33,3 +33,7 @@ Most of the time, Rey's parent's MC ranged from 20,000 to about 22,000. These va
 ### Update - Jan 2, 2018
 In _The Last Jedi_, Kylo Ren reveals that Rey's parents were "nobodys", they sold off Rey. I'm still unsure of whether he was telling the truth (why would Rey's parents sell her off when in her vision in _The Force Awakens_ they flew off in their own ship?). This model cannot compensate for the fact that Rey's parents are nobodys; the underlying assumption is that she is somewhat related to previous characters.
 
+### Update 2 - 2020
+Well, whaddaya know? In _The Rise of Skywalker_, Palpatine is indeed revealed to be an ancestor of Rey (her grandfather) - my model's prediction was confirmed!
+
+![](midichlorians_meme.png)
